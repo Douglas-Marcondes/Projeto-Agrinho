@@ -1,21 +1,34 @@
-<style>
-
-.header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--white);
-    padding-block: 4px;
-    box-shadow: var(--shadow-1);
-    z-index: 4;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
- .container {
+.navbar {
+    background-color: #12b30d;
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px; 
+    justify-content: center;
 }
 
-</style>
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list li {
+    float: left;
+}
+
+.navbar-list li a {
+    display: block;
+    color: rgb(45, 97, 40);
+    text-align: center;
+    padding: 20px 91px;
+    text-decoration: none;
+}
+
+.navbar-list li a:hover {
+    background-color: #12941d;
+    color: black;
+}
