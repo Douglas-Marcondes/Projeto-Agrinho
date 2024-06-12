@@ -41,3 +41,37 @@ body {
     margin-left: -450px;
     top: 5px;
 }
+
+.search-container {
+    display: flex;
+    margin: 20px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    transition: border-color 0.3s ease;
+}
+
+#search-input:focus {
+    border-color: #007bff;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-results {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
