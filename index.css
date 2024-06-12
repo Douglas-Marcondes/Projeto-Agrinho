@@ -32,3 +32,8 @@ body {
     background-color: #12941d;
     color: black;
 }
+
+.navbar-list li img {
+    max-width: 50px;
+    max-height: 30px;
+    margin: 5px;
