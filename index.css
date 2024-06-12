@@ -34,11 +34,10 @@ body {
 }
 
 .navbar-list li img {
-    max-width: 30px;
-    max-height: 20px;
+    max-width: 200px;
+    max-height: 40px;
     margin: 5px;
-}
-.logo {
-    height: 20px;
-    width: 10px;
+    position: relative;
+    margin-left: -450px;
+    top: 5px;
 }
