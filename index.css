@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    height: 60px;
 }
 
 .navbar-list {
@@ -26,6 +27,8 @@ body {
     text-align: center;
     padding: 20px 91px;
     text-decoration: none;
+    position: relative;
+    left: 150px;
 }
 
 .navbar-list li a:hover {
@@ -38,8 +41,8 @@ body {
     max-height: 40px;
     margin: 5px;
     position: relative;
-    margin-left: -450px;
-    top: 5px;
+    margin-left: -300px;
+    top: 5px;   
 }
 
 .search-container {
@@ -53,25 +56,25 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
     transition: border-color 0.3s ease;
+    position: relative;
+    left: 300px;
+    top: -10px;
+    height: 13px;
 }
 
 #search-input:focus {
-    border-color: #007bff;
+    border-color: #368340;
 }
-
+    
 #search-button {
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 10px 10px;
+    background-color: #216e21;
     border: none;
     color: white;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
+    position: relative;
+    left: 300px;
+    top: -10px;
+    height: 35px;
 }
-
-#search-results {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
