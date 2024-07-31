@@ -10,7 +10,7 @@
 
     <title>O futuro</title>
 
-    <link rel="stylesheet" href="index.css" href="index.js">
+    <link rel="stylesheet" href="style.css" href="index.js">
      <link rel="icon" type="image/png" href="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/icon.png?raw=true"> 
 
 
@@ -18,11 +18,15 @@
 
 <body>
 
+<header>
+
+<div>    
+
     <nav class="navbar">
 
         <ul class="navbar-list">
           
-           <a href="index.html"><li> <img src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/logo.png?raw=true" alt="Logo"> </li></a>
+           <a href="index.html"><li><img src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/logo.png?raw=true" alt="Logo"></li></a>
             
             <li> <a href="#">Home</a> </li>
 
@@ -36,25 +40,53 @@
             
         <input type="text" id="search-input" placeholder="Digite aqui...">
             
-         <button id="search-button">Pesquisar</button> 
+        <button id="search-button">Pesquisar</button>
             
-            
-    </div>
+    </nav>
 
-</nav>
-
-<div class="slideshow">
-    <a href="#">
-        <img src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/Default_Serene_image_of_a_sprawling_modern_plantation_set_agai_3.jpg?raw=true" alt="Imagem 1">
-    </a>
-    <a href="#">
-        <img src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/Default_Serene_image_of_a_sprawling_modern_plantation_set_agai_1.jpg?raw=true" alt="Imagem 2">
-    </a>
-    <a href="#">
-        <img src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/Default_Serene_image_of_a_sprawling_modern_plantation_set_agai_0.jpg?raw=true" alt="Imagem 3">
-    </a>
 </div>
- 
+
+</header>     
+
+                <div class="content">
+                    <div class="slides">
+                        <input type="radio" name="slide" id="slide1" checked>
+                        <input type="radio" name="slide" id="slide2">
+                        <input type="radio" name="slide" id="slide3">
+                        <input type="radio" name="slide" id="slide4">
+                        <input type="radio" name="slide" id="slide5">
+
+                        <div class="slide s1">
+                        <img class="img-desktop" src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/slide1.jpg?raw=true" alt="campo, lavoura, natureza">
+                        </div>
+
+                        <div class="slide">
+                        <img class="img-desktop" src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/slide2.jpg?raw=true" alt="campo, lavoura, natureza">
+                        </div>
+
+                        <div class="slide">
+                        <img class="img-desktop" src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/slide3.jpg?raw=true" alt="campo, lavoura, natureza">
+                        </div>
+
+                        <div class="slide">
+                        <img class="img-desktop" src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/slide4.jpg?raw=true" alt="campo, lavoura, natureza">
+                        </div>
+
+                        <div class="slide">
+                        <img class="img-desktop" src="https://github.com/Douglas-Marcondes/Projeto-Agrinho/blob/main/slide5.jpg?raw=true" alt="campo, lavoura, natureza">
+                        </div>
+
+                    </div>  
+                    
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                        <label class="bar" for="slide4"></label>
+                        <label class="bar" for="slide5"></label>
+                    </div>
+                </div>
 
 </body>
+
 </html>
