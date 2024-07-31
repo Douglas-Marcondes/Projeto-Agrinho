@@ -4,7 +4,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(72deg, #11651c 20%, #6acb72 80%);
+    background-color: #65a76a;
 }
 
 .navbar {
@@ -80,7 +80,7 @@ body {
     position: relative;
     left: 150px;
     top: -10px;
-    height: 35px;
+    height: 35px;￼
 }
 
 .content {
@@ -154,4 +154,72 @@ body {
 
 #slide5:checked ~ .s1 {
     margin-left: -80%;
+}
+
+.img1 {
+    width: 20%;
+    position: relative;
+    top: 80%;
+    margin: 100px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-left: 60px;
+}
+
+.img2 {
+    width: 20%;
+    position: relative;
+    top: 130%;
+    margin: 100px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-left: -25.5%;
+}
+
+.img3 {
+    width: 20%;
+    position: relative;
+    top: 180%;
+    margin: 100px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-left: -25.5%;
+}
+
+.img1:hover {
+width: 400px;
+transition: 2s;
+}
+
+.img2:hover {
+    width: 400px;
+    transition: 2s;
+}
+
+.img3:hover {
+    width: 400px;
+    padding: 10px;
+    transition: 2s;
+}
+
+.titulo1 {
+    position: relative;
+    top: 30%;
+    left: 1%;
+    color: #ffffff;
+    font-size: 20px; line-height: 1em;
+    text-align: center;
+    font-size: 40px;
+    width: auto;
+}
+
+.titulo2 {
+    position: relative;
+    top: 35%;
+    left: 2%;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px; line-height: 1em;
+    cursor: pointer;
 }
