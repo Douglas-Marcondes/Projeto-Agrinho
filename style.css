@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #65a76a;
 }
 
@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     height: 60px;
+    overflow: hidden;
 }
 
 .navbar-list {
@@ -80,18 +81,18 @@ body {
     position: relative;
     left: 150px;
     top: -10px;
-    height: 35px;￼
+    height: 35px;
 }
 
 .content {
     height: 520px;
     width: 935px;
     border-radius: 20px;
-    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 .navigation {
@@ -173,7 +174,7 @@ body {
     margin: 100px;
     overflow: hidden;
     border-radius: 40px;
-    margin-left: -25.5%;
+    margin-left: -26.5%;
 }
 
 .img3 {
@@ -183,21 +184,21 @@ body {
     margin: 100px;
     overflow: hidden;
     border-radius: 40px;
-    margin-left: -25.5%;
+    margin-left: -26.8%;
 }
 
 .img1:hover {
-width: 400px;
+width: 330px;
 transition: 2s;
 }
 
 .img2:hover {
-    width: 400px;
+    width: 330px;
     transition: 2s;
 }
 
 .img3:hover {
-    width: 400px;
+    width: 330px;
     padding: 10px;
     transition: 2s;
 }
@@ -205,21 +206,91 @@ transition: 2s;
 .titulo1 {
     position: relative;
     top: 30%;
-    left: 1%;
+    left: 32%;
     color: #ffffff;
-    font-size: 20px; line-height: 1em;
+    line-height: 1em;
     text-align: center;
     font-size: 40px;
-    width: auto;
+    padding: 0; 
+    margin: 0; 
+    max-width: 40%;
+    cursor: pointer;
 }
 
 .titulo2 {
     position: relative;
     top: 35%;
-    left: 2%;
+    left: 27%;
     color: #ffffff;
     text-align: center;
     text-decoration: underline;
     font-size: 20px; line-height: 1em;
     cursor: pointer;
+    margin: 0;
+    max-width: 50%;
+}
+
+.titulo1:hover {
+    font-size: 45px;
+    transition: 1.5s;
+}
+
+.titulo3 {
+    position: relative;
+    top: 50%;
+    left: 27%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px; line-height: 1em;
+    cursor: pointer;
+    margin: 0;
+    max-width: 50%;
+}
+
+.titulo3:hover {
+    font-size: 45px;
+    transition: 1.5s;
+}
+
+.titulo4 {
+    position: relative;
+    top: 55%;
+    left: 27%;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px; line-height: 1em;
+    cursor: pointer;
+    margin: 0;
+    max-width: 50%;
+}
+
+.titulo5 {
+    position: relative;
+    top: 78%;
+    left: 27%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px; line-height: 1em;
+    cursor: pointer;
+    margin: 0;
+    max-width: 50%;
+}
+
+.titulo5:hover {
+    font-size: 45px;
+    transition: 1.5s;
+}
+
+.titulo6 {
+    position: relative;
+    top: 85%;
+    left: 27%;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px; line-height: 1em;
+    cursor: pointer;
+    margin: 0;
+    max-width: 50%;
 }
